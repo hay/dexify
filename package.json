@@ -1,0 +1,15 @@
+{
+  "name": "dexify",
+  "version": "0.1.0",
+  "description": "Converts a folder of text-based files to HTML and creates a searchable index page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hay Kranen",
+  "license": "ISC",
+  "dependencies": {
+    "clui": "^0.3.6",
+    "minimist": "^1.2.0"
+  }
+}
