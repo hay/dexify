@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-const { readJsonFile } = require('./lib/util.js');
+const { readLibFile } = require('./lib/util.js');
 const Dexify = require('./lib/dexify.js');
 
-const pkg = readJsonFile('./package.json');
+const pkg = JSON.parse(readLibFile('./package.json'));
 
 const Parser = require('argparse').ArgumentParser;
 

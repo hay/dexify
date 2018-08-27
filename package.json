@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Converts a folder of text-based files to HTML and creates a searchable index page.",
   "main": "index.js",
+  "bin" : {
+    "dexify" : "./index.js"
+  },
   "scripts": {
     "test": "rm -f ./test/*.html && ./index.js test -v"
   },
